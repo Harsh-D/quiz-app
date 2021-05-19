@@ -20,6 +20,14 @@ const quizOne: Quiz = {
           text: "6",
           isRight: true,
         },
+        {
+          text: "3",
+          isRight: false,
+        },
+        {
+          text: "12",
+          isRight: false,
+        },
       ],
     },
     {
@@ -37,6 +45,14 @@ const quizOne: Quiz = {
           text: "performing surgery as a real doctor",
           isRight: true,
         },
+        {
+          text: "eating burgers",
+          isRight: false,
+        },
+        {
+          text: "driving his lamborghini",
+          isRight: false,
+        },
       ],
     },
     {
@@ -52,11 +68,19 @@ const quizOne: Quiz = {
           text: "Vision",
           isRight: true,
         },
+        {
+          text: "Thor",
+          isRight: false,
+        },
+        {
+          text: "Bruce Banner",
+          isRight: false,
+        },
       ],
     },
   ],
 };
 
-console.log(quizOne.questions[2].negativePoint);
+//console.log(quizOne.questions[2].negativePoint);
 
 export { quizOne };
