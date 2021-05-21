@@ -60,6 +60,7 @@ const quizOne: Quiz = {
       question_id: 3,
       question: "who's the love interest for Wanda in MCU?",
       points: 5,
+      negativePoint: 3,
       options: [
         {
           text: "Clint",
