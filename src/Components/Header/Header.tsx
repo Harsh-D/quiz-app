@@ -1,6 +1,6 @@
 import { HeaderProps } from "./HeaderProps.types";
 
-export function Header({ username, score }: HeaderProps) {
+export function Header({ username}: HeaderProps) {
   return (
     <>
       <div className="nav-main nav-primary">
@@ -27,10 +27,7 @@ export function Header({ username, score }: HeaderProps) {
         </ul>
       </div>
 
-      <div>
         <div> Welcome, {username}! </div>
-        <div> Score: {score} </div>
-      </div>
     </>
   );
 }
