@@ -27,7 +27,7 @@ export function Header({ username, score }: HeaderProps) {
         </ul>
       </div>
 
-      <div style={{ fontSize: "1.2rem" }}>
+      <div>
         <div> Welcome, {username}! </div>
         <div> Score: {score} </div>
       </div>
