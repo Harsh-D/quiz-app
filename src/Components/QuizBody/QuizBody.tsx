@@ -18,8 +18,8 @@ export function QuizBody() {
                         style={{ width: "100%" }}
                         onClick={() => {
                             quizOne.questions[currentQueNo - 1].options[0].isRight ?
-                                setScore((score) => score + quizOne.questions[0].points) :
-                                setScore((score) => score - quizOne.questions[0].negativePoint);
+                                setScore((score) => score + quizOne.questions[currentQueNo - 1].points) :
+                                setScore((score) => score - quizOne.questions[currentQueNo - 1].negativePoint);
                             currentQueNo===quizOne.totalQuestions?setIsQuizOver(true): setCurrentQueNo((currentQueNo) => currentQueNo + 1);
                         }}
                     >
@@ -32,8 +32,8 @@ export function QuizBody() {
                         style={{ width: "100%" }}
                         onClick={() => {
                             quizOne.questions[currentQueNo - 1].options[1].isRight ?
-                                setScore((score) => score + quizOne.questions[1].points) :
-                                setScore((score) => score - quizOne.questions[1].negativePoint);
+                                setScore((score) => score + quizOne.questions[currentQueNo - 1].points) :
+                                setScore((score) => score - quizOne.questions[currentQueNo - 1].negativePoint);
                                 currentQueNo===quizOne.totalQuestions?setIsQuizOver(true): setCurrentQueNo((currentQueNo) => currentQueNo + 1);
                         }}
                     >
@@ -46,8 +46,8 @@ export function QuizBody() {
                         style={{ width: "100%" }}
                         onClick={() => {
                             quizOne.questions[currentQueNo - 1].options[2].isRight ?
-                                setScore((score) => score + quizOne.questions[2].points) :
-                                setScore((score) => score - quizOne.questions[2].negativePoint);
+                                setScore((score) => score + quizOne.questions[currentQueNo - 1].points) :
+                                setScore((score) => score - quizOne.questions[currentQueNo - 1].negativePoint);
                                 currentQueNo===quizOne.totalQuestions?setIsQuizOver(true): setCurrentQueNo((currentQueNo) => currentQueNo + 1);
                         }}
                     >
@@ -60,8 +60,8 @@ export function QuizBody() {
                         style={{ width: "100%" }}
                         onClick={() => {
                             quizOne.questions[currentQueNo - 1].options[3].isRight ?
-                                setScore((score) => score + quizOne.questions[3].points) :
-                                setScore((score) => score - quizOne.questions[3].negativePoint);
+                                setScore((score) => score + quizOne.questions[currentQueNo - 1].points) :
+                                setScore((score) => score - quizOne.questions[currentQueNo - 1].negativePoint);
                                 currentQueNo===quizOne.totalQuestions?setIsQuizOver(true): setCurrentQueNo((currentQueNo) => currentQueNo + 1);
                         }}
                     >
