@@ -22,5 +22,6 @@ export type Quiz = {
   quiz_id: number;
   quizName: string;
   playTime: string;
+  totalQuestions: number;
   questions: Question[];
 };

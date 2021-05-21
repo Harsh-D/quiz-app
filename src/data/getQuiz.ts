@@ -4,6 +4,7 @@ const quizOne: Quiz = {
   quiz_id: 1,
   quizName: "Marvel Cinematic Universe",
   playTime: "5 minutes",
+  totalQuestions: 3,
   questions: [
     {
       question_id: 1,
