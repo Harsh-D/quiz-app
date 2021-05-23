@@ -24,12 +24,17 @@ export default function App() {
             >
               &times;
                 </span>
-            <p>Enter Your name: </p>
+            <p> 
+              NOTE: Consider watching some videos to increase your knowledge about perfumes, click the link below:<br/>
+              <a rel="noreferrer" href="https://logn-video.netlify.app/" target="_blank" style={{textDecoration:"none", color:"black"}}>Log<sub>N</sub>Video</a>
+            </p>
+            <p> Before attempting the quiz, Enter Your name: </p>
             <input
               type="text"
               onChange={(val) => setUserName(val.target.value)}
-            />
+            />&nbsp;
             <button
+              className="button secondary-button"
               onClick={() => showUserNameModal(false)}
             >
               submit
