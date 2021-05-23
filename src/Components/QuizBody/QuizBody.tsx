@@ -81,7 +81,7 @@ export function QuizBody() {
                     setCurrentQueNo(1);
                 }}
             >
-                ⭯
+                ↺       
       </button>
         </>
     );
